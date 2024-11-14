@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap");
+
+:root {
+  --bg-project: #ffffff;
+  --bg-profile: #d6dadd;
+  --text-color: #282a28;
+  --bg-button: #282a28;
+  --bg-card: #fdfdfd;
+  --text-btn-color: #e1e6f0;
+  --card-shadow: rgba(0, 0, 0, 0.2);
+  --bg-toggle: url();
+}
+.dark {
+  --card-shadow: rgba(0, 0, 0, 0.7);
+  --text-btn-color: #282a28;
+  --bg-button: #e1e6f0;
+  --bg-project: #383838;
+  --bg-profile: #1c1c1c;
+  --text-color: #e1e6f0;
+  --bg-card: #d6dadd;
+}
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--text-color);
+}
+a {
+  color: var(--text-color);
+}
+path {
+  fill: var(--text-color);
+}
+
+@media (min-width: 992px) {
+  #container {
+    display: grid;
+    grid-template-columns: 450px 1fr;
+  }
+  aside {
+    min-height: 100vh;
+  }
+}

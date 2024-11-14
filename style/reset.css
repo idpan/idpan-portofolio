@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: 0;
+}
+h1,
+h2,
+p,
+a {
+  font-size: 100%;
+  font: inherit;
+}
+a {
+  text-decoration: none;
+}
+img,
+svg {
+  display: block;
+  width: 100%;
+}
